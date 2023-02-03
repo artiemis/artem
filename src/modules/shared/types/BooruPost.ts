@@ -1,4 +1,4 @@
-export interface BooruPost {
+export type BooruPost = {
   id: number;
   file_url: string;
   large_file_url: string;
